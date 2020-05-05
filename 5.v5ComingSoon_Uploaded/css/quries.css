@@ -1,0 +1,233 @@
+/* 820px in sus cate 3 */
+
+/* intre 680 si 819 cate 2 */
+
+/* Big Tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* Small Tablets to Big Tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+   section {
+      padding: 40px 0;
+   }
+   h4 {
+      font-size: 120%;
+   }
+
+}
+
+
+/* Small Phones to Small Tablets: from 680px to 767px */
+@media only screen and (max-width: 767px) {
+
+   .features-row {
+      border-top: none;
+   }
+
+   .two-boxes p {
+      font-size: 112%;
+   }
+
+   .three-boxes p {
+      font-size: 112%;
+   }
+
+   .three-boxes {
+      background-color: rgba(0, 0, 0, 0.03);
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #f4f4f4;
+      border-right: none;
+      text-align: center;
+      margin: 1% 0 1% 0;
+      padding: 3% 10%;
+      border-radius: 5px;
+   }
+
+   .three-boxes:first-child {
+      margin-left: 0;
+   }
+
+   .three-boxes-quotes {
+      background-color: transparent;
+      padding: 1% 2%;
+      text-align: center;
+      margin: 1% 0 1% 0;
+      display: block;
+      width: 49%;
+  }
+
+  .three-boxes-quotes:first-child {
+      margin-left: 1.6%;
+  }
+
+  .three-boxes-quotes cite {
+      text-align: left;
+   }
+
+   br {
+      display: none;
+   }
+
+}
+
+
+/* intre 680px si 819px pentru sectiunea quotes cate doua elemente */
+@media only screen and (min-width: 680px) and (max-width: 840px) {
+
+   .section-quotes {
+      clip-path: polygon(50% 2.5%, 100% 0, 100% 100%, 0 100%, 0 0);
+      padding-top: 8rem;
+   }
+
+   .quotes-col {
+      display: inline-block;
+      width: 90%;
+      margin: 0 5%;
+      padding-top: 50px;
+   }
+
+   .quotes-row .quotes-col:first-child {
+      display: inline-block;
+      width: 90%;
+      margin: 0 5%;
+      padding-top: 50px;
+   }
+
+   .quotes-row {
+      padding-top: 0;
+   }
+
+   .blockquote h1 {
+      font-size: 125%;
+   }
+}
+
+
+/* sectiunea quotes cate 1 element */
+/* Small Phones from 0 to 679px */
+@media only screen and (max-width: 679px) {
+
+   header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 89vh, 0 90%) !important;
+              clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 89vh, 0 90%) !important;
+   }
+
+   .features-row {
+      margin-top: 8px;
+      border-top: none;
+   }
+
+   br {
+      display: none;
+   }
+
+   .descriere p {
+      width: 90%;
+      margin: 0 auto;
+      font-family: 'Cambay', sans-serif;
+      font-size: 118%;
+      font-weight: 400;
+      text-transform: uppercase;
+  }
+
+   .two-boxes {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 1% 0 1% 0;
+      padding: 3% 10%;
+  }
+
+  .two-boxes:first-child {
+      border-right: none;
+  }
+
+   .three-boxes {
+      background-color: rgba(0, 0, 0, 0.03);
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #f4f4f4;
+      border-right: none;
+      text-align: center;
+      margin: 1% 0 1% 0;
+      padding: 3%;
+      border-radius: 5px;
+   }
+
+   .three-boxes:first-child {
+      margin-left: 0;
+   }
+
+   .three-boxes-quotes {
+      background-color: transparent;
+      padding: 1% 2%;
+      text-align: center;
+      margin: 1% 0 1% 0;
+      display: block;
+      width: 100%;
+   }
+
+   /* cate un element section-quotes */
+   .quotes-col {
+      display: inline-block;
+      width: 90%;
+      margin: 0 5%;
+      padding-top: 50px;
+   }
+
+   .quotes-row .quotes-col:first-child {
+      display: inline-block;
+      width: 90%;
+      margin: 0 5%;
+   }
+
+   .quotes-row {
+      padding-top: 0;
+   }
+
+   /* pt section quotes sa fie la fel ca intre cele 2 dimensiuni */
+   .section-quotes {
+      clip-path: polygon(50% 1.25%, 100% 0, 100% 100%, 0 100%, 0 0);
+      padding-top: 8rem;
+   }
+
+   .quotes-col {
+      display: inline-block;
+      width: 90%;
+      margin: 0 5%;
+      padding-top: 50px;
+   }
+
+   .quotes-row .quotes-col:first-child {
+      display: inline-block;
+      width: 90%;
+      margin: 0 5%;
+      padding-top: 50px;
+   }
+
+   .quotes-row {
+      padding-top: 0;
+   }
+
+   .blockquote h1 {
+      font-size: 125%;
+   }
+}
+
+
+
+
+
+/* External Code */
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+   .blockquote h1 {
+      
+      line-height: 1.4;
+  }
+}
