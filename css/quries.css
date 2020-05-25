@@ -80,7 +80,6 @@
 @media only screen and (min-width: 680px) and (max-width: 840px) {
 
    .section-quotes {
-      clip-path: polygon(50% 2.5%, 100% 0, 100% 100%, 0 100%, 0 0);
       padding-top: 8rem;
    }
 
@@ -192,7 +191,6 @@
 
    /* pt section quotes sa fie la fel ca intre cele 2 dimensiuni */
    .section-quotes {
-      clip-path: polygon(50% 1.25%, 100% 0, 100% 100%, 0 100%, 0 0);
       padding-top: 8rem;
    }
 
